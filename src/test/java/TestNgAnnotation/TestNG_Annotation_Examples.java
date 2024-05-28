@@ -1,4 +1,4 @@
-package com.SelleniumAutomationBasic.Automation_practice;
+package TestNgAnnotation;
 
 import org.testng.annotations.*;
 
