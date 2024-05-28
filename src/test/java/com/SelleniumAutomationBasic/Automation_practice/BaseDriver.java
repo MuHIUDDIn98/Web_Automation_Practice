@@ -22,7 +22,7 @@ public class BaseDriver {
 				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();
-				
+				System.out.println("BeforeSuite");
 			}
 			else if(BrowserName.equals("fireFox")) {
 				WebDriverManager.firefoxdriver().setup();
