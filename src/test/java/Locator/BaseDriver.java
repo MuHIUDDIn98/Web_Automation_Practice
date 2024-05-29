@@ -13,6 +13,9 @@ public class BaseDriver {
 
 		
 		WebDriver driver;
+		//we can use local chrome , edge , etc driver
+		//System.setproperty("Webdriver.chrome.driver","path of local driver");
+		//WebDriver driver = new ChromeDriver();
 		@BeforeSuite
 		public void starBrowser() {
 			String BrowserName = System.getProperty("browser","chrome");
