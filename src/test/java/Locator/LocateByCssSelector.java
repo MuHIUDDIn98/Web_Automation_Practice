@@ -16,7 +16,7 @@ public class LocateByCssSelector extends BaseDriver{
 	public void locateByLinkText() throws InterruptedException {
 		WebElement LocateByLinkContact = driver.findElement(By.linkText("Contact"));
 		LocateByLinkContact.click();
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 	}
 	
 	@Test (priority=2)
@@ -36,7 +36,7 @@ public class LocateByCssSelector extends BaseDriver{
 		cssLocator1.sendKeys("Hello from css locator 1 css geniric selector ->>");
 		cssLocator2.sendKeys("Hello from Css locator2 css id selector -->> ");
 		cssLocator3.sendKeys("Hello from Css locator3 css class selector -->>");
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		
 	}
 
