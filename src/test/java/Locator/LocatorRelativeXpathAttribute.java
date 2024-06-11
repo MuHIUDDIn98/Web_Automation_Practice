@@ -35,6 +35,9 @@ public class LocatorRelativeXpathAttribute extends BaseDriver{
 		WebElement AddressField = driver.findElement(By.xpath("//form[@id='practiceForm']/div[9]/div/textarea[@placeholder='Currend Address']"));
 		AddressField.sendKeys("Mogbazar BTCL coloney Dhaka");
 		
+		WebElement Gender = driver.findElement(By.xpath("//form[@id='practiceForm']/div[3]/div/div/div[1]/input[@id='gender']"));
+		Gender.click();
+		
 		Thread.sleep(3000);
 	
 	}
