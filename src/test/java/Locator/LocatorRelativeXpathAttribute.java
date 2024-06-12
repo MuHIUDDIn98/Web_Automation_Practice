@@ -38,6 +38,16 @@ public class LocatorRelativeXpathAttribute extends BaseDriver{
 		WebElement Gender = driver.findElement(By.xpath("//form[@id='practiceForm']/div[3]/div/div/div[1]/input[@id='gender']"));
 		Gender.click();
 		
+		//navigate commands
+		
+		WebElement tutorialsPointHome = driver.findElement(By.xpath("//a[@href='https://www.tutorialspoint.com']"));
+		tutorialsPointHome.click();
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		driver.navigate().back();
+		driver.navigate().forward();
+		driver.navigate().refresh();
+		
 		Thread.sleep(3000);
 	
 	}
