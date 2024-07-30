@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Locator.LocateByClassNameAttribute">
+      <class name="Locator.LocateById_name">
         <methods>
-          <include name="locateByClassName"/>
           <include name="starBrowser"/>
-          <include name="OpenURL"/>
-          <include name="closeChromeBrowser"/>
+          <include name="Login_attempt"/>
           <include name="close"/>
         </methods>
-      </class> <!-- Locator.LocateByClassNameAttribute -->
+      </class> <!-- Locator.LocateById_name -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

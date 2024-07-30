@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseDriver {
 
 		
-		WebDriver driver;
+		static WebDriver driver;
 		//we can use local chrome , edge , etc driver
 		//System.setproperty("Webdriver.chrome.driver","path of local driver");
 		//WebDriver driver = new ChromeDriver();
